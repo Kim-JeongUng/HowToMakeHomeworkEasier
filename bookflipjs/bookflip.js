@@ -270,7 +270,6 @@ function createList(dv,num){
 		}
 	}
 }
-
 function createShadow(dv,pg){
 		//alert(pg);
 	if(pg < 1){return};//no shadow page 0
