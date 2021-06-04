@@ -261,8 +261,11 @@ function createList(dv,num){
 		y.value=num;
 		//y.selected="selected";
 			var x=document.getElementById("flipSelect");
+			
 		x.style.display="";
+		
 		x.onchange=function() {this.blur();document.body.focus();autoFlip(this.value);};
+		
 		try{
 			x.add(y,null); // standards compliant
 		}catch(ex){
